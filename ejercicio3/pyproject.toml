@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ejercicio3"
+version = "0.1.0"
+description = ""
+authors = ["Pablo Martínez <pablompg@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+httpx = "^0.27.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
