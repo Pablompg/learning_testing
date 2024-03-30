@@ -1,9 +1,10 @@
-Requirements:
-1. Python version 3.11 or higher (pyenv highly recommended)
-2. To install python 3.12 via pyenv: pyenv install 3.12
-3. To install poetry: python -m pip install poetry
-5. To install project requirements, cd into folder and: poetry install
-6. To execute tests: poetry run pytest
+In this repo we have 6 folders. Each of one with a different exercise. The goal is to learn a few things about testing.
+1. Simple FizzBuzz exercise in python and pytest
+2. Continuation of FizzBuzz with python and pytest. Example to understand the benefits of testing
+3. An api endpoint in fastapi. Helps to understand how testing apis requires you to understand the framework.
+4. Testing two api endpoints. One requires mocking dates, another one mocking the database.
+5. Testing components and interactions in a frontend application with vue, vitest and testing library.
+6. Testing end2end with cypress
 
-## How to execute the tests?
-`poetry run pytest` from each of the folders/exercises.
+## Instructions
+Each exercise has its own instructions.
