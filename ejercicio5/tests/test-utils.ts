@@ -15,7 +15,7 @@ export function renderWithRouter(ui: any, { route = '/', ...options } = {}) {
   const router = createTestRouter();
 
   // Ensure the router is in the correct state before rendering the UI
-  router.push(route).catch(err => {});
+  router.push(route).catch(err => { console.log(err) });
 
   return render(ui, {
     global: {
