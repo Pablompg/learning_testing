@@ -26,6 +26,6 @@ def test_return_buzz_for_multiples_of_three_and_five(multiple_of_three_and_five:
     assert fizzbuzz_extension(multiple_of_three_and_five) == "FizzBuzz"
 
 
-@pytest.mark.parametrize("multiple_of_three_and_five", [210, 420])
-def test_return_buzz_for_multiples_of_three_five_and_seven_and_even(multiple_of_three_and_five: int):
-    assert fizzbuzz_extension(multiple_of_three_and_five) == "BuzzFizz"
+@pytest.mark.parametrize("multiple_of_three_five_seven_and_even", [210, 420])
+def test_return_buzz_for_multiples_of_three_five_and_seven_and_even(multiple_of_three_five_seven_and_even: int):
+    assert fizzbuzz_extension(multiple_of_three_five_seven_and_even) == "BuzzFizz"

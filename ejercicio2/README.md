@@ -7,7 +7,7 @@ Your function should comply with the following rules:
 If the number is a multiple of three, return the string "Fizz".
 If the number is a multiple of five, return the string "Buzz".
 If the number is a multiple of both three and five, return the string "FizzBuzz".
-If the number is a multiple of three, five and seven, and is and odd number, return the string "BuzzFizz".
+If the number is a multiple of three, five and seven, and is an even number, return the string "BuzzFizz" (ej 210).
 
 # Requirements
 * Have python 3.11 or higher installed

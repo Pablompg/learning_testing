@@ -54,7 +54,7 @@ def test_remaining_minutes_in_year_non_testable(mock_datetime):
 
 @patch("main.get_current_date")
 def test_remaining_minutes_in_year(get_current_date):
-    specific_datetime = datetime(2023, 12, 31, 23, 0, 0)  # Dec 30, 2023, 15:00:00
+    specific_datetime = datetime(2023, 12, 31, 23, 0, 0)  # Dec 31, 2023, 23:00:00
     get_current_date.return_value = specific_datetime
 
     # Make a request to the endpoint
